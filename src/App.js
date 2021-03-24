@@ -1,10 +1,10 @@
 import './App.css';
-import MyIndex from './components/all/MyIndex.js';
-
+//import MyIndex from './components/all/MyIndex.js';
+import ButtonAppBar from './components/top/ButtonAppBar.js'
 function App() {
   return (
     <div className="App">
-      <MyIndex/>
+      <ButtonAppBar/>
     </div>
   );
 }
